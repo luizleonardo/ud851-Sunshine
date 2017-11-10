@@ -83,10 +83,6 @@ public class MainActivity extends AppCompatActivity {
     // TODO (32) After you save mWeatherData, call notifyDataSetChanged
     // Within ForecastAdapter.java /////////////////////////////////////////////////////////////////
 
-
-    // TODO (33) Delete mWeatherTextView
-    private TextView mWeatherTextView;
-
     // TODO (34) Add a private RecyclerView variable called mRecyclerView
     // TODO (35) Add a private ForecastAdapter variable called mForecastAdapter
 
@@ -99,12 +95,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_forecast);
 
-        // TODO (36) Delete the line where you get a reference to mWeatherTextView
         /*
          * Using findViewById, we get a reference to our TextView from xml. This allows us to
          * do things like set the text of the TextView.
          */
-        mWeatherTextView = (TextView) findViewById(R.id.tv_weather_data);
 
         // TODO (37) Use findViewById to get a reference to the RecyclerView
 
